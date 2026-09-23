@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Как я провела лето 2026</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Навигация -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">
+                <i class="bi bi-sun-fill text-warning me-1"></i> Моё лето
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">Обо мне</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#mogilev">Могилёв</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#dacha">Шашлыки</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#lake">Озеро</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#club">Клуб</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero секция -->
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <span class="badge badge-custom mb-3">Лето 2026</span>
+                <h1 class="mb-3">Как я провела это невероятное лето</h1>
+                <p class="lead mb-4">Поездки, шашлыки, поход на озеро с семьёй и незабываемые ночи.</p>
+                <a href="#about" class="btn btn-summer">
+                    <i class="bi bi-arrow-down-circle me-2"></i>Читать историю
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Обо мне -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-4 text-center">
+                    <img src="Даша.jpg" 
+                         alt="Моё фото" class="profile-photo rounded-circle">
+                    <h4 class="mt-3 mb-1">Дарья</h4>
+                    <p class="text-muted">Студентка</p>
+                </div>
+                <div class="col-lg-8">
+                    <h2 class="section-title">Привет! Это я</h2>
+                    <p class="fs-5 text-secondary">
+                        Лето 2026 стало одним из самых ярких в моей жизни. Я успела 
+                        провести кучу времени с близкими и наконец-то отпустить все заботы.
+                    </p>
+                    <div class="quote-block p-4 mt-4">
+                        <i class="bi bi-quote fs-3 text-warning"></i>
+                        <p class="mb-0 fst-italic">«Люблю лето.»</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Основные истории -->
+    <section class="py-5 bg-white">
+        <div class="container">
+            <h2 class="section-title text-center d-block mx-auto mb-5">Мои летние приключения</h2>
+            
+            <div class="row g-4">
+                <!-- Могилёв -->
+                <div class="col-md-6 col-lg-3" >
+                    <div class="story-card">
+                        <img src="Лиза.jpg" 
+                             alt="Могилёв — исторический город">
+                        <div class="card-body">
+                            <span class="badge bg-primary mb-2">Июнь</span>
+                            <h5 class="card-title">Поездка в Могилёв</h5>
+                            <p class="card-text text-secondary">
+                                Прогулки по старым улицам, ратуша, виды на Днепр и вкуснейшие местные пирожки. 
+                                Город с характером!
+                            </p>
+                            <div class="d-flex align-items-center text-muted small">
+                                <i class="bi bi-geo-alt me-1"></i> Могилёв, Беларусь
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Шашлыки -->
+                <div class="col-md-6 col-lg-3" >
+                    <div class="story-card">
+                        <img src="Шашлык.jpg" 
+                             alt="Шашлыки на даче">
+                        <div class="card-body">
+                            <span class="badge bg-success mb-2">Июль</span>
+                            <h5 class="card-title">Шашлыки на даче</h5>
+                            <p class="card-text text-secondary">
+                                Дым, аромат мяса и семья, а больше ничего и не нужно.
+                            </p>
+                            <div class="d-flex align-items-center text-muted small">
+                                <i class="bi bi-house-heart me-1"></i> Дача за городом
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Озеро -->
+                <div class="col-md-6 col-lg-3" >
+                    <div class="story-card">
+                        <img src="оршанка.jpg" 
+                             alt="Озеро с семьёй">
+                        <div class="card-body">
+                            <span class="badge bg-info mb-2">Август</span>
+                            <h5 class="card-title">Поход на озеро</h5>
+                            <p class="card-text text-secondary">
+                                Подружка и кристально чистая вода.
+                            </p>
+                            <div class="d-flex align-items-center text-muted small">
+                                <i class="bi bi-water me-1"></i> Озеро Оршанское
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Клуб -->
+                <div class="col-md-6 col-lg-3" >
+                    <div class="story-card">
+                        <img src="клуб.jpg" 
+                             alt="Клуб Золотой Телёнок">
+                        <div class="card-body">
+                            <span class="badge bg-danger mb-2">Август</span>
+                            <h5 class="card-title">«Золотой Телёнок»</h5>
+                            <p class="card-text text-secondary">
+                                Музыка, танцы до утра и новые знакомства. 
+                                Ночь, которую сложно забыть.
+                            </p>
+                            <div class="d-flex align-items-center text-muted small">
+                                <i class="bi bi-music-note-beamed me-1"></i> Клуб «Золотой Телёнок»
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Подробности -->
+    <section class="py-5">
+        <div class="container">
+            <h2 class="section-title mb-5">Подробнее о каждом приключении</h2>
+            
+            <!-- Могилёв подробно -->
+            <div class="row g-4 mb-5 align-items-center" id="mogilev">
+                <div class="col-lg-6">
+                    <img src="мг.jpg" 
+                         class="img-fluid rounded-4 shadow" alt="Улицы Могилёва">
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex align-items-start gap-3 mb-3">
+                        <div class="timeline-icon"><i class="bi bi-building"></i></div>
+                        <div>
+                            <h3 class="h4">Могилёв — город с историей</h3>
+                            <p class="text-muted mb-2">15–17 июня</p>
+                        </div>
+                    </div>
+                    <p>
+                        Решили спонтанно рвануть в Могилёв на выходные. Город нас покорил сразу: 
+                        красивая набережная Днепра, старинная ратуша и уютные кафе в центре. 
+                        Особенно запомнился подъём на смотровую площадку - оттуда весь город как на ладони.
+                    </p>
+                    <p>
+                        Вечером гуляли по пешеходной улице, слушали уличных музыкантов.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Шашлыки подробно -->
+            <div class="row g-4 mb-5 align-items-center flex-lg-row-reverse" id="dacha">
+                <div class="col-lg-6">
+                    <img src="шш.jpg" 
+                         class="img-fluid rounded-4 shadow" alt="Шашлык">
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex align-items-start gap-3 mb-3">
+                        <div class="timeline-icon" style="background:#2d6a4f"><i class="bi bi-fire"></i></div>
+                        <div>
+                            <h3 class="h4">Шашлыки на даче</h3>
+                            <p class="text-muted mb-2">12 июля</p>
+                        </div>
+                    </div>
+                    <p>
+                        Ни одно настоящее белорусское лето не обходится без шашлыков. 
+                        Собрались всей семьей на даче. Костер, уголь, маринованное мясо - 
+                        запах настоящего лета.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Озеро -->
+            <div class="row g-4 mb-5 align-items-center" id="lake">
+                <div class="col-lg-6">
+                    <img src="оз.jpg" 
+                         class="img-fluid rounded-4 shadow" alt="Озеро">
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex align-items-start gap-3 mb-3">
+                        <div class="timeline-icon" style="background:#1a8fe3"><i class="bi bi-water"></i></div>
+                        <div>
+                            <h3 class="h4">Поход на озеро</h3>
+                            <p class="text-muted mb-2">5–8 августа</p>
+                        </div>
+                    </div>
+                    <p>
+                      Сходи с подружкой на озеро, покатались на всём чем можно и просто весело провели время.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Клуб -->
+            <div class="row g-4 align-items-center flex-lg-row-reverse" id="club">
+                <div class="col-lg-6">
+                    <img src="зт.jpg" 
+                         class="img-fluid rounded-4 shadow" alt="Вечеринка в клубе">
+                </div>
+                <div class="col-lg-6">
+                    <div class="d-flex align-items-start gap-3 mb-3">
+                        <div class="timeline-icon" style="background:#e63946"><i class="bi bi-music-note-list"></i></div>
+                        <div>
+                            <h3 class="h4">Ночь в «Золотом Телёнке»</h3>
+                            <p class="text-muted mb-2">23 августа</p>
+                        </div>
+                    </div>
+                    <p>
+                        Легендарный клуб «Золотой Телёнок». 
+                        Пришли с друзьями «просто посмотреть», а остались до самого закрытия.
+                    </p>
+                    <p>
+                        Отличный звук, крутой диджей, море энергии. Познакомились с новыми людьми, много
+                        танцевали. Это была та самая ночь, после которой понимаешь: 
+                        лето удалось на 100%.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Итоги -->
+    <section class="py-5 bg-white">
+        <div class="container text-center">
+            <h2 class="section-title d-block mx-auto">Чем запомнилось лето</h2>
+            <div class="row g-4 mt-3 justify-content-center">
+                <div class="col-6 col-md-3">
+                    <div class="p-3">
+                        <i class="bi bi-geo-alt-fill fs-1 text-primary"></i>
+                        <h3 class="mt-2 mb-0">2</h3>
+                        <p class="text-muted mb-0">города</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="p-3">
+                        <i class="bi bi-people-fill fs-1 text-success"></i>
+                        <h3 class="mt-2 mb-0">∞</h3>
+                        <p class="text-muted mb-0">друзей и родных</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="p-3">
+                        <i class="bi bi-camera-fill fs-1 text-warning"></i>
+                        <h3 class="mt-2 mb-0">200+</h3>
+                        <p class="text-muted mb-0">фото</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3">
+                    <div class="p-3">
+                        <i class="bi bi-emoji-laughing-fill fs-1 text-danger"></i>
+                        <h3 class="mt-2 mb-0">100%</h3>
+                        <p class="text-muted mb-0">удовольствия</p>
+                    </div>
+                </div>
+            </div>
+            <p class="fs-5 mt-4 text-secondary col-lg-8 mx-auto">
+                Лето закончилось, но воспоминания остались. Теперь остаётся только ждать следующего 
+                и надеяться, что оно будет ещё круче!
+            </p>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="py-4">
+        <div class="container text-center">
+            <p class="mb-1">© 2026 • Как я провёл лето</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
